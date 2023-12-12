@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, button[type=submit] {
+  background: linear-gradient(
+    90deg,
+    rgb(179, 20, 166) 0%,
+    rgb(237, 34, 98) 100%
+  );    
+}
+
+body {
+  height: 1920px;
+  overflow: hidden;
+}
